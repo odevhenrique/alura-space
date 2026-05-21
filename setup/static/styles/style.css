@@ -382,3 +382,23 @@ table {
     border: 2px solid #7B78E5;
     cursor: pointer;
 }
+
+.alert {
+    padding: .75rem 1.25rem;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    margin: .5rem 1rem;
+}
+
+.alert-primary {
+    background-color: #7B78E520;
+    border: 1px solid #7B78E5;
+    color: #C2C0FF;
+}
+
+.alert-danger {
+    background-color: #e5787820;
+    border: 1px solid #e57878;
+    color: #ffc0c0;
+}
